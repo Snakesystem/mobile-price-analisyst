@@ -4,7 +4,7 @@
 https://www.kaggle.com/datasets/iabhishekofficial/mobile-price-classification
 
 ### Train Model Awal
-Sebelum melakukan EDA kami membuat model terlebih dahulu dengan Algoritma `Decission Tree`, `Random Forest Classifier` dan `Super Vector Classifier` untuk mengukur seberapa performa sebelum melakukan EDA\
+Sebelum melakukan EDA kami membuat model terlebih dahulu dengan Algoritma `Decision Tree`, `Random Forest Classifier` dan `Super Vector Classifier` untuk mengukur seberapa performa sebelum melakukan EDA\
 Dan akurasi dari model memiliki perbedaan masing masing yaitu
 1. Decission Tree  84 %
 2. Random Forest Classifier 86 %
