@@ -61,6 +61,8 @@ Berbeda dengan `Random Forest` meskipun performanya kurang di bandingkan dengan 
 
 Maka model akhir yang saya gunakan adalah `Random Forest classifier` untuk melakukan klasifikasi pada dataset di kasus ini
 
+#### Web Application
+https://snakesystem-mobile-price-app-mobile-phone-hsk79h.streamlitapp.com/
 
 
 
