@@ -26,7 +26,7 @@ Dalam analisis ini ditemukan pada kolom `px_height` nilai minimum 0, setelah di 
 3. Dan memiliki ram yang cukup besar
 4. Memiliki battry_power yang besar
 5. sc_width = 0\
-*Akhirnya* saya menghapus naris tersebut karena informasi yang ada sangat ambigu
+*Akhirnya* saya menghapus baris tersebut karena informasi yang ada sangat ambigu
 
 ## Visualisasi Data
 Visualisasi yang di digunakan hanya untuk melihat distribusi dari fitur untuk menemukan terdapatnya outlier
@@ -62,7 +62,7 @@ Berbeda dengan `Random Forest` meskipun performanya kurang di bandingkan dengan 
 Maka model akhir yang saya gunakan adalah `Random Forest classifier` untuk melakukan klasifikasi pada dataset di kasus ini
 
 #### Web Application
-https://snakesystem-mobile-price-app-mobile-phone-hsk79h.streamlitapp.com/
+https://snakesystem-data-science-exploration-app-bfwrze.streamlitapp.com/
 
 
 
