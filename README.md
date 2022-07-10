@@ -56,6 +56,7 @@ Berdasarkan hasil tersebut tentunya `Super Vektor Classifier lebih memiliki perf
 Dimana dari `Heatmap Confusion Matrix` ini `Super Vektor` memprediksi melebihi kapasitas dari data test yang digunakan, dimana seharusnya data test nya berjumlah `400 mobile` namun di malah di prediksi `402 mobile` `perhitungan 99+1+2+87+4+3+97+5+2+102 = 402`
 #### Random Forest Classifier Performa
 Berbeda dengan `Random Forest` meskipun performanya kurang di bandingkan dengan `Super vektor` namun prediksinya tidak melewati batas
+
 ![rf](https://user-images.githubusercontent.com/90812378/178136898-622a4df2-97fe-477c-b5ac-342abca68bd6.png)
 
 
