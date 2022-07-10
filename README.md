@@ -4,15 +4,15 @@
 https://www.kaggle.com/datasets/iabhishekofficial/mobile-price-classification
 
 ### Train Model Awal
-Sebelum melakukan EDA saya membuat model terlebih dahulu dengan Algoritma `Decission Tree`, `Random Forest Classifier` dan `SUper Vektor Classifier` untuk mengukur seberapa performa sebelum melakukan EDA\
+Sebelum melakukan EDA kami membuat model terlebih dahulu dengan Algoritma `Decission Tree`, `Random Forest Classifier` dan `Super Vector Classifier` untuk mengukur seberapa performa sebelum melakukan EDA\
 Dan akurasi dari model memiliki perbedaan masing masing yaitu
 1. Decission Tree  84 %
 2. Random Forest Classifier 86 %
-3. Super Vektor Classifier 87 %\
+3. Super Vector Classifier 87 %\
 
 ## Exploratory Data Analisyst
 ### Korelasi Antara Fitur dengan Target
-Dari semua fitur yang ada hanya terdapat 4 fitur yang memiliki korelasi diatas 10%, dimana fitur itulah yang akan di ambil sebagai variabel input. Alasan mengambil fitur dengan korelasi diatas 10% karena saya berpedoman pada pendapat dari Jonathan Sarwono Direktur Penjaminan Mutu di International Women University dalam artikel
+Dari semua fitur yang ada hanya terdapat 4 fitur yang memiliki korelasi diatas 10%, dimana fitur itulah yang akan di ambil sebagai variabel input. Alasan mengambil fitur dengan korelasi diatas 10% karena berpedoman pada pendapat dari Jonathan Sarwono Direktur Penjaminan Mutu di International Women University dalam artikel
 http://www.databee.id/2020/12/jenis-uji-korelasi.html, 4 fitur itu adalah kolom
 1. RAM = 91%
 2. BATTERY_POWER = 20%
@@ -26,7 +26,7 @@ Dalam analisis ini ditemukan pada kolom `px_height` nilai minimum 0, setelah di 
 3. Dan memiliki ram yang cukup besar
 4. Memiliki battry_power yang besar
 5. sc_width = 0\
-*Akhirnya* saya menghapus baris tersebut karena informasi yang ada sangat ambigu
+*Akhirnya* kami menghapus baris tersebut karena informasi yang ada sangat ambigu
 
 ## Visualisasi Data
 Visualisasi yang di digunakan hanya untuk melihat distribusi dari fitur untuk menemukan terdapatnya outlier
@@ -49,7 +49,7 @@ Dari ketiga model setelah di lakukan `Hyperparameter Tuning` terjadi berpedaan y
 1. Decission Tree 88% accuaracy
 2. Random Forest Classifier 90% accuracy
 3. Super vektor Classifier 97% accuracy\
-Berdasarkan hasil tersebut tentunya `Super Vektor Classifier lebih memiliki performa yang jauh lebih baik di bandingkan dengan yang lain. Maka saya lakukan test terakhir dengan `confussion matrix`
+Berdasarkan hasil tersebut tentunya `Super Vektor Classifier lebih memiliki performa yang jauh lebih baik di bandingkan dengan yang lain. Maka kami lakukan test terakhir dengan `confussion matrix`
 ### Heatmap Confusion Matrix
 ![svc](https://user-images.githubusercontent.com/90812378/178136712-5885537b-5ff7-436f-80e1-03545b5a0c82.png)
 #### Super Vektor Classifier Performa
@@ -60,7 +60,7 @@ Berbeda dengan `Random Forest` meskipun performanya kurang di bandingkan dengan 
 ![rf](https://user-images.githubusercontent.com/90812378/178136898-622a4df2-97fe-477c-b5ac-342abca68bd6.png)
 
 
-Maka model akhir yang saya gunakan adalah `Random Forest classifier` untuk melakukan klasifikasi pada dataset di kasus ini
+Maka model akhir yang layak digunakan adalah `Random Forest classifier` untuk melakukan klasifikasi pada dataset pada kasus tersebut.
 
 #### Web Application
 https://snakesystem-data-science-exploration-app-bfwrze.streamlitapp.com/
