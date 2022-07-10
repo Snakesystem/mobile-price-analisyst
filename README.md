@@ -1,4 +1,4 @@
-# mobile-phone-analisyst
+# Mobile Price Classification
 
 ### Dokumentasi dataset
 https://www.kaggle.com/datasets/iabhishekofficial/mobile-price-classification
@@ -8,5 +8,5 @@ Sebelum melakukan EDA saya membuat model terlebih dahulu dengan Algoritma `Decis
 Dan akurasi dari model memiliki perbedaan masing masing yaitu
 1. Decission Tree 84 %
 2. Random Forest Classifier 86 %
-3. Super Vektor Classifier 87 %
+3. Super Vektor Classifier 87 %\
 Setelah itu
