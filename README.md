@@ -31,11 +31,14 @@ Dalam analisis ini ditemukan pada kolom `px_height` nilai minimum 0, setelah di 
 ## Visualisasi Data
 Visualisasi yang di digunakan hanya untuk melihat distribusi dari fitur untuk menemukan terdapatnya outlier
 ![vis](https://user-images.githubusercontent.com/90812378/178136303-83d8771c-ea81-402f-bc60-142d4b933a3e.png)
+#### visualisasi
 Juga untuk melihat `Target` Apakah balance dari setiap class nya
+
 ![bal](https://user-images.githubusercontent.com/90812378/178136436-dbd17a6e-1e73-4cb4-96ab-699cbef436a3.png)
 
 ## Train Model 
 ![model](https://user-images.githubusercontent.com/90812378/178136466-e58d3586-f4cf-4ef3-a98e-7eb55ab8540a.png)
+#### performa model
 Perbedaan performa sebelum EDA dan setelahnya sangat jauh bahkan SVC mencapai 95%
 
 ## Hyperparameter Tuning
@@ -47,11 +50,15 @@ Dari ketiga model setelah di lakukan `Hyperparameter Tuning` terjadi berpedaan y
 2. Random Forest Classifier 90% accuracy
 3. Super vektor Classifier 97% accuracy\
 Berdasarkan hasil tersebut tentunya `Super Vektor Classifier lebih memiliki performa yang jauh lebih baik di bandingkan dengan yang lain. Maka saya lakukan test terakhir dengan `confussion matrix`
+### Heatmap Confusion Matrix
 ![svc](https://user-images.githubusercontent.com/90812378/178136712-5885537b-5ff7-436f-80e1-03545b5a0c82.png)
-Dimana dari `Heatmap Confusion Matrix` ini `Super Vektor` memprediksi melebihi kapasitas dari data test yang digunakan, dimana seharusnya data test nya berjumlah `400 mobile` namun di malah di prediksi `402 mobile`\
-`perhitungan 99+1+2+87+4+3+97+5+2+102 = 402\
+#### Super Vektor Classifier Performa
+Dimana dari `Heatmap Confusion Matrix` ini `Super Vektor` memprediksi melebihi kapasitas dari data test yang digunakan, dimana seharusnya data test nya berjumlah `400 mobile` namun di malah di prediksi `402 mobile` `perhitungan 99+1+2+87+4+3+97+5+2+102 = 402`
+#### Random Forest Classifier Performa
 Berbeda dengan `Random Forest` meskipun performanya kurang di bandingkan dengan `Super vektor` namun prediksinya tidak melewati batas
 ![rf](https://user-images.githubusercontent.com/90812378/178136898-622a4df2-97fe-477c-b5ac-342abca68bd6.png)
+
+
 Maka model akhir yang saya gunakan adalah `Random Forest classifier` untuk melakukan klasifikasi pada dataset di kasus ini
 
 
