@@ -29,7 +29,7 @@ Dalam analisis ini ditemukan pada kolom `px_height` nilai minimum 0, setelah di 
 *Akhirnya* kami menghapus baris tersebut karena informasi yang ada sangat ambigu
 
 ## Visualisasi Data
-Visualisasi yang di digunakan hanya untuk melihat distribusi dari fitur untuk menemukan terdapatnya outlier
+Visualisasi yang di digunakan hanya untuk melihat distribusi dari fitur untuk menemukan adanya outlier
 ![vis](https://user-images.githubusercontent.com/90812378/178136303-83d8771c-ea81-402f-bc60-142d4b933a3e.png)
 #### visualisasi
 Juga untuk melihat `Target` Apakah balance dari setiap class nya
