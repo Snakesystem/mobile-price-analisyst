@@ -45,11 +45,11 @@ Perbedaan performa sebelum EDA dan setelahnya sangat jauh bahkan SVC mencapai 95
 ![hyper](https://user-images.githubusercontent.com/90812378/178136543-272aa6d6-fbae-4172-bec6-5a9ed7232e7c.png)
 
 ## Evaluation
-Dari ketiga model setelah di lakukan `Hyperparameter Tuning` terjadi berpedaan yang cukup signifikan:
+Dari ketiga model setelah di lakukan `Hyperparameter Tuning` terjadi perbedaan yang cukup signifikan:
 1. Decission Tree 88% accuaracy
 2. Random Forest Classifier 90% accuracy
 3. Super vektor Classifier 97% accuracy\
-Berdasarkan hasil tersebut tentunya `Super Vektor Classifier lebih memiliki performa yang jauh lebih baik di bandingkan dengan yang lain. Maka kami lakukan test terakhir dengan `confussion matrix`
+Berdasarkan hasil tersebut tentunya `Super Vektor Classifier lebih memiliki performa yang jauh lebih baik dibandingkan dengan yang lain. Maka kami lakukan test terakhir dengan `confussion matrix`
 ### Heatmap Confusion Matrix
 ![svc](https://user-images.githubusercontent.com/90812378/178136712-5885537b-5ff7-436f-80e1-03545b5a0c82.png)
 #### Super Vektor Classifier Performa
