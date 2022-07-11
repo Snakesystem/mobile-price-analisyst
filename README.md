@@ -1,22 +1,21 @@
-# Final Project Kelompok __
+# Final Project Kelompok 6
 Anggota Kelompok:
-- < Achmad Reihan > 
-- < Feri Irawansyah > 
+-  Achmad Reihan 
+-  Feri Irawansyah  
 
-Nama Mentor: < Rauzan Sumara > 
+Nama Mentor:  Rauzan Sumara  
 
-Nama Dataset: <Mobile Price>
+Nama Dataset: Mobile Price
 
 Link Dataset: https://www.kaggle.com/datasets/iabhishekofficial/mobile-price-classification
 
 Problem: regression / classification (hapus yang tidak relevan)
 
-Final Model: <nama model akhir, contoh: Linear Regression / Random Forest / dst>
+Final Model: Random Forest Classifier
 
 Link Repositori: https://github.com/Snakesystem/mobile-price-analisyst/
 
 Link PPT: <link presentasi dalam google slides> 
-
 
 ### Train Model Awal
 Sebelum melakukan EDA kami membuat model terlebih dahulu dengan Algoritma `Decision Tree`, `Random Forest Classifier` dan `Super Vector Classifier` untuk mengukur seberapa performa sebelum melakukan EDA\
