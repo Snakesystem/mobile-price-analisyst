@@ -15,7 +15,7 @@ Final Model: Random Forest Classifier
 
 Link Repositori: https://github.com/Snakesystem/mobile-price-analisyst/
 
-Link PPT: https://github.com/Snakesystem/mobile-price-analisyst/blob/main/final-project-kelompok-6-Rauan%20Sumara.pptx
+Link PPT: https://docs.google.com/presentation/d/1Dyu8R7Kk6KxNUfw-pIL4wxK2E6yQMrz7oEDgFGvO8XQ/edit#slide=id.g13c89c60753_2_45
 
 ### Train Model Awal
 Sebelum melakukan EDA kami membuat model terlebih dahulu dengan Algoritma `Decision Tree`, `Random Forest Classifier` dan `Super Vector Classifier` untuk mengukur seberapa performa sebelum melakukan EDA\
