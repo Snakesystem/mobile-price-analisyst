@@ -1,6 +1,6 @@
 # Final Project Kelompok 6
 Anggota Kelompok:
--  Achmad Reihan 
+-  Achmad Raihan 
 -  Feri Irawansyah  
 
 Nama Mentor:  Rauzan Sumara  
