@@ -6,7 +6,6 @@ Anggota Kelompok:
 Nama Mentor:  Rauzan Sumara  
 
 Nama Dataset: Mobile Price
-
 Link Dataset: https://www.kaggle.com/datasets/iabhishekofficial/mobile-price-classification
 
 Problem: Classification
