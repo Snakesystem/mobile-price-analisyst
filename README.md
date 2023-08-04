@@ -9,7 +9,7 @@ Nama Dataset: Mobile Price
 
 Link Dataset: https://www.kaggle.com/datasets/iabhishekofficial/mobile-price-classification
 
-Problem: regression / classification (hapus yang tidak relevan)
+Problem: Classification
 
 Final Model: Random Forest Classifier
 
